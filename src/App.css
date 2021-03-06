@@ -1,0 +1,26 @@
+.h1 {
+  text-align: center;
+  animation: root 4s ease-in-out infinite;
+}
+.root {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@keyframes root {
+  0% {
+    transform: scale(1);
+    color: #8076b2;
+  }
+  50% {
+    transform: scale(1.4);
+    color: #60b249;
+  }
+  100% {
+    transform: scale(1);
+    color: #993654;
+  }
+}

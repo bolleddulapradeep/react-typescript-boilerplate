@@ -1,5 +1,4 @@
 const path = require('path');
-const webpack = require('webpack');
 const HtmlWebPackPlugin = require('html-webpack-plugin');
 
 module.exports = {
@@ -36,11 +35,12 @@ module.exports = {
           'style-loader',
           {
             loader: 'css-loader',
-            options: {
+            // If you are using modules
+            /*  options: {
               modules: true,
-            },
+              import: true,
+            }, */
           },
-          'postcss-loader',
         ],
       },
       {
