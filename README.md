@@ -1,4 +1,4 @@
-# React and Webpack Boilerplate with Babel
+# React Typescript Boilerplate with Babel
 
 A basic React Boilerplate using Webpack with babel-loader, css-loader and
 url-loader, sass-loader.
